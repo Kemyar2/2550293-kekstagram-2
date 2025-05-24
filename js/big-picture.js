@@ -80,7 +80,7 @@ const openBigPicture = ({ url, likes, description, comments }) => {
   renderComments();
 
   elements.loadMoreButton.addEventListener('click', onLoadMoreButtonClick);
-  document.addEventListener('keydown', onEscKeydown, { once: true });
+  document.addEventListener('keydown', onEscKeydown,);
   elements.closeButton.addEventListener('click', onCloseButtonClick, { once: true });
 };
 
